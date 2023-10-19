@@ -1,3 +1,4 @@
+
 import requests
 import pandas as pd
 from bs4 import BeautifulSoup
@@ -42,6 +43,3 @@ df=pd.DataFrame(data)
 df.to_csv("amazon.csv",index=False)
 print(df)
 
-
-
-                   
